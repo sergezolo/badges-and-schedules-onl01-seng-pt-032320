@@ -14,7 +14,13 @@ def assign_rooms(array)
   return list
 end
 
+<<<<<<< HEAD
 def printer(person)
   batch_badge_creator(person).each {|name|puts name}
   assign_rooms(person).each {|room| puts room}
+=======
+def printer()
+  puts !batch_badge_creator(array)
+  puts !assign_rooms(array)
+>>>>>>> 5cbf5d4dd36c01d6deca3ac94e09fead3f92a7ee
 end
